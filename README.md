@@ -1,6 +1,12 @@
 # packaged labs_lib
 
 Directives and services for Labs apps in the Labs space for rapid iteration.
+
+# Installation
+```
+bower install https://github.com/redhataccess/labs_lib.git#<release>
+```
+
 # Usage
 
 # Rails app
