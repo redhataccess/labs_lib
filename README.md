@@ -11,6 +11,15 @@ Add a `<script>` to your `index.html`:
 ```
 
 # NodeJS app
+Add labs_lib files to your Gruntfile.js so that they can be loaded.
+
+```
+'<%= yeoman.client %>/bower_components/labs_lib/**/*.js',
+'!<%= yeoman.client %>/bower_components/labs_lib/lib-loader.js'
+
+'{.tmp,<%= yeoman.client %>}/bower_components/labs_lib/**/*.js',
+'!{.tmp,<%= yeoman.client %>}/bower_components/labs_lib/lib-loader.js'
+```
 
 # Module Usage
 
