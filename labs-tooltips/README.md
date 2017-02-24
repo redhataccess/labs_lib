@@ -3,12 +3,12 @@
 Popover tooltips.
 # Usage
 
-Add `ngToolTips` as a dependency for your app:
+Add `rh-ngToolTips` as a dependency for your app:
 
 ```javascript
 define(['labs-tooltips'], function () {
     "use strict";
-    var module = angular.module('app.main', ['ngToolTips']);
+    var module = angular.module('app.main', ['rh-ngToolTips']);
     return module;
 });
 ```

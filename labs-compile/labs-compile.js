@@ -4,7 +4,7 @@ define([], function () {
     "use strict";
 
     // Define the module
-    var module = angular.module('ngCompile', []);
+    var module = angular.module('rh-ngCompile', []);
 
     module.directive('compile', ['$compile', function ($compile) {
         return function (scope, element, attrs) {

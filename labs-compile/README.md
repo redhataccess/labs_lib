@@ -3,12 +3,12 @@
 The directive allows you to call AngularJS functions in i18n messages.
 # Usage
 
-Add `ngCompile` as a dependency for your app:
+Add `rh-ngCompile` as a dependency for your app:
 
 ```javascript
 define(['labs-compile'], function () {
     "use strict";
-    var module = angular.module('app.main', ['ngCompile']);
+    var module = angular.module('app.main', ['rh-ngCompile']);
     return module;
 });
 ```

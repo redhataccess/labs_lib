@@ -1,12 +1,12 @@
 # packaged angular-localization
 # Usage
 
-Add `ngLocalization` as a dependency for your app:
+Add `rh-ngLocalization` as a dependency for your app:
 
 ```javascript
 define(['angular-localization'], function () {
     "use strict";
-    var module = angular.module('app.main', ['ngLocalization']);
+    var module = angular.module('app.main', ['rh-ngLocalization']);
     return module;
 });
 ```

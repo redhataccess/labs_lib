@@ -3,12 +3,12 @@
 Download with pure AngularJS.
 # Usage
 
-Add `ngDownload` as a dependency for your app:
+Add `rh-ngDownload` as a dependency for your app:
 
 ```javascript
 define(['labs-download'], function () {
     "use strict";
-    var module = angular.module('app.main', ['ngDownload']);
+    var module = angular.module('app.main', ['rh-ngDownload']);
     return module;
 });
 ```
