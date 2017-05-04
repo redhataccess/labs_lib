@@ -3,7 +3,7 @@
         "name": "Xiumei Meng"
     },
     "name": "labs_lib",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "main": ["./lib-loader.js"],
     "dependencies": {
         "angular": "~1.4.14",
