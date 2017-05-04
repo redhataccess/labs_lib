@@ -21,12 +21,13 @@
     deps.map(function (dep) {
         var pathArr = dep.split('/');
         var module = (pathArr[pathArr.length - 1].split('.'))[0];
+        module = module.replace(/-/g, '_');
         paths[module] = base + dep;
         shim[module] = {
             exports: module
         };
     });
-    shim['angular-translate-loader-static-files'].deps = ['angular-translate'];
+    shim['angular_translate_loader_static_files'].deps = ['angular_translate'];
     require.config({
         paths: paths,
         shim: shim

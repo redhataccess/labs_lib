@@ -1,10 +1,10 @@
 /*global document, window, angular, define*/
 
-define(['ui-bootstrap-tpls-customized'], function () {
+define(['ui_bootstrap_tpls_customized'], function () {
     "use strict";
 
     // Define the module
-    var module = angular.module('rh-ngToolTips', ['ui.bootstrap']);
+    var module = angular.module('rh_ngToolTips', ['ui.bootstrap']);
 
     module.config(['$tooltipProvider', function ($tooltipProvider) {
         $tooltipProvider.setTriggers({

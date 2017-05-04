@@ -4,7 +4,7 @@ define([], function () {
     "use strict";
 
     // Define the module
-    var module = angular.module('rh-ngDownload', []);
+    var module = angular.module('rh_ngDownload', []);
 
     module.directive('filedownload', function () {
         return {

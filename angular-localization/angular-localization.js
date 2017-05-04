@@ -1,9 +1,9 @@
 /*global document, window, angular, define*/
-define(['angular-cookies', 'angular-translate', 'angular-translate-loader-static-files'], function () {
+define(['angular_cookies', 'angular_translate', 'angular_translate_loader_static_files'], function () {
     "use strict";
 
     // Define the module
-    var module = angular.module('rh-ngLocalization', ['pascalprecht.translate', 'ngCookies']);
+    var module = angular.module('rh_ngLocalization', ['pascalprecht.translate', 'ngCookies']);
 
     module.config(function ($translateProvider) {
         $translateProvider.useStaticFilesLoader({
